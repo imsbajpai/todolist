@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+	
+}
+
+body {
+	
+	background-image: url(/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.back {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	
+    background-color: #00891E;
+	color: #ffffff;
+	text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+	font-weight: 800;
+    font-size: 5rem;
+}
+
+p {
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #4e3b0d;
+}
+
+
+#enter {
+    font-size: 20px;
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #ebf3f5;
+	background-color: #025F70;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #e46934;
+	color: #dcdad5;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #f107c6;
+}
+
+li > button {
+    text-align: center;
+    font-size: 12px;
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #f4f7f8;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
